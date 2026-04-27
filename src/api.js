@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const API_BASE_URL = 'https://nexus-crm-backend-i3w2.onrender.com/'
+// 1. /api add kiya aur trailing slash hataya
+const API_BASE_URL = 'https://nexus-crm-backend-i3w2.onrender.com/api' 
 
 const api = axios.create({
   baseURL: API_BASE_URL,
