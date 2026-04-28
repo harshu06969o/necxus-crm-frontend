@@ -5,14 +5,15 @@
 </p>
 
 ---
-
 ## 🎨 Tech Stack
 
 * **Core Web Technologies:** HTML5, CSS3, JavaScript (ES6+)
+* **Build Tool:** Vite (For lightning-fast HMR and optimized builds)
 * **Library/Framework:** React.js
+* **Styling:** Tailwind CSS (Utility-first framework for responsive design)
 * **Routing:** React Router DOM
-* **API Integration:** Axios / Fetch API (RESTful API consumption)
-* **Authentication Handling:** JWT (JSON Web Tokens) Client-Side Management
+* **API Integration:** Axios / Fetch API
+* **State Management:** React Context API
 * **Deployment:** Vercel
 
 ## ✨ Key Features
@@ -35,9 +36,9 @@ Create a `.env` file in the root directory. You can point this to your live Rend
 
 To connect to the **Live Cloud Backend**:
 ```env
-REACT_APP_API_URL=[https://nexus-crm-backend.onrender.com](https://nexus-crm-backend.onrender.com)
+REACT_APP_API_URL=https://nexus-crm-backend-i3w2.onrender.com
 ```
-*(Replace the URL with your actual Render backend URL if it's different).*
+
 
 To connect to the **Local Backend**:
 ```env
@@ -51,6 +52,7 @@ npm install
 
 **4. Start the Development Server:**
 ```bash
-npm start
+ npm run dev
 ```
-> The application will start running at `http://localhost:3000`
+
+> The application will start running at `http://localhost:5173`
