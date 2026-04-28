@@ -26,7 +26,7 @@
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/harshu06969o/nexus-crm-frontend.git](https://github.com/harshu06969o/nexus-crm-frontend.git)
+git clone https://github.com/harshu06969o/nexus-crm-frontend.git
 cd nexus-crm-frontend
 ```
 
